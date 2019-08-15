@@ -1,7 +1,7 @@
 == testing ssh with github ==
 ssh -T git@github.com
 It will use default ssh id file, wich should match public key, uploaded to github.com
-use ssh-agent for frequent pushes
+use ssh-agent and ssh-add for frequent pushes
 
 == Preparing to publish code to github ==
 Create new repository on github site
