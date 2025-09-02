@@ -25,3 +25,9 @@ git push -u origin master
 
 == changing remote origin ==
 git remote set-url origin git@github.com:ShyLionTjmn/newrepname.git
+
+
+== refetch from repo, ignoring local changes ==
+== CAREFULL!  ==
+git fetch --all
+git reset --hard origin/master
